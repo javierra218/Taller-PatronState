@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0.069" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0.034" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\2021.1\LabSof2\State-OrderManagement\State-OrderManagement\target\test-classes;D:\2021.1\LabSof2\State-OrderManagement\State-OrderManagement\target\classes;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Javier\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Javier\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Javier\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Javier\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\Javier\Documents\GitHub\Taller-PatronState\target\test-classes;C:\Users\Javier\Documents\GitHub\Taller-PatronState\target\classes;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Javier\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Javier\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Javier\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Javier\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin"/>
-    <property name="sun.java.command" value="C:\Users\Javier\AppData\Local\Temp\surefire713922333609081825\surefirebooter15339313405577453971.jar C:\Users\Javier\AppData\Local\Temp\surefire713922333609081825 2021-08-25T19-28-10_451-jvmRun1 surefire18346008134838276708tmp surefire_014355795909965759259tmp"/>
+    <property name="sun.java.command" value="C:\Users\Javier\AppData\Local\Temp\surefire18402956311378230742\surefirebooter10318864395181808926.jar C:\Users\Javier\AppData\Local\Temp\surefire18402956311378230742 2021-08-25T21-22-44_087-jvmRun1 surefire4361748899824495339tmp surefire_06935232838301686524tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\2021.1\LabSof2\State-OrderManagement\State-OrderManagement\target\test-classes;D:\2021.1\LabSof2\State-OrderManagement\State-OrderManagement\target\classes;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Javier\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Javier\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Javier\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Javier\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="test" value="co.unicauca.serversocket.ordermanagement.domain.OrderTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\Javier\Documents\GitHub\Taller-PatronState\target\test-classes;C:\Users\Javier\Documents\GitHub\Taller-PatronState\target\classes;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Javier\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Javier\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Javier\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Javier\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Javier\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Javier"/>
     <property name="user.language" value="es"/>
@@ -25,12 +26,12 @@
     <property name="java.version.date" value="2019-09-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-13"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\2021.1\LabSof2\State-OrderManagement\State-OrderManagement"/>
+    <property name="basedir" value="C:\Users\Javier\Documents\GitHub\Taller-PatronState"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Javier\AppData\Local\Temp\surefire713922333609081825\surefirebooter15339313405577453971.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Javier\AppData\Local\Temp\surefire18402956311378230742\surefirebooter10318864395181808926.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13+33"/>
@@ -45,7 +46,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Javier\AppData\Local\Temp\"/>
     <property name="java.version" value="13"/>
-    <property name="user.dir" value="D:\2021.1\LabSof2\State-OrderManagement\State-OrderManagement"/>
+    <property name="user.dir" value="C:\Users\Javier\Documents\GitHub\Taller-PatronState"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -56,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="testNormalFlow" classname="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0.058"/>
-  <testcase name="testExceptionalFlow" classname="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0.001"/>
+  <testcase name="testNormalFlow" classname="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0.025"/>
+  <testcase name="testExceptionalFlow" classname="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0"/>
   <testcase name="AlternativeFlow" classname="co.unicauca.serversocket.ordermanagement.domain.OrderTest" time="0.001"/>
 </testsuite>
